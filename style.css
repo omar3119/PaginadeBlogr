@@ -940,7 +940,7 @@ video {
 }
 
 .bg-hero_movile {
-  background-image: url('../images/bg-pattern-intro-mobile.svg');
+  background-image: url('./images/bg-pattern-intro-mobile.svg');
 }
 
 .bg-contain {
@@ -1388,7 +1388,7 @@ video {
   }
 
   .desktop\:bg-editorDesktop {
-    background-image: url('../images/illustration-editor-desktop.svg'),;
+    background-image: url('./images/illustration-editor-desktop.svg'),;
   }
 
   .desktop\:p-0 {

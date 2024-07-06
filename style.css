@@ -1036,8 +1036,13 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+=======
+.bg-hero_movile {
+  background-image: url('./bg-pattern-intro-mobile.svg');
+>>>>>>> 5e89a958016ad0541c5f05dd8dcd773ee8d82949
 }
 
 .bg-gradient-to-l {
@@ -1463,6 +1468,7 @@ video {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
+<<<<<<< HEAD
   .desktop\:bg-gradient-to-l {
     background-image: linear-gradient(to left, var(--tw-gradient-stops));
   }
@@ -1475,6 +1481,10 @@ video {
 
   .desktop\:to-\[\#ff876e\] {
     --tw-gradient-to: #ff876e var(--tw-gradient-to-position);
+=======
+  .desktop\:bg-editorDesktop {
+    background-image: url('./images/illustration-editor-desktop.svg'),;
+>>>>>>> 5e89a958016ad0541c5f05dd8dcd773ee8d82949
   }
 
   .desktop\:p-0 {

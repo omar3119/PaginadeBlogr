@@ -23,9 +23,13 @@
 
 
     <!-- SECTION ---1 -->
-    <section
-      class="w-full h-[600px] bg-[#ff876e] px-5 pt-[54px] flex flex-col items-center rounded-bl-[50px] bg-hero_movile bg-no-repeat bg-center font-Overppass">
-      <header class="w-full max-w-[1440px] flex justify-between desktop:items-center">
+    <section role="section 1"
+      class="w-full h-[600px] px-5 pt-[55px] flex flex-col items-center rounded-bl-[50px] font-Overppass desktop:px-[160px] bg-gradient-to-b to-[#ff4556] from-[#ff876e] desktop:bg-gradient-to-l desktop:to-[#ff876e] desktop:from-[#ff4556] overflow-hidden relative">
+      <img src="./images/bg-pattern-intro-mobile.svg" alt="bg-pattern-intro-mobile" class="desktop:hidden absolute left-[150px] scale-[3.5] top-[250px]">
+
+      <img src="./images/bg-pattern-intro-desktop.svg" alt="illustration-editor-desktop" class="hidden desktop:block absolute top-[-520px] left-[370px] scale-[2.0] ">
+
+      <header class="w-full max-w-[1440px] flex justify-between desktop:items-center relative z-10">
         <img src="./images/logo.svg" alt="Logo" class="w-[81px] h-[30px] desktop:h-[40px] desktop:w-[110px]">
 
         <img src="./images/icon-hamburger.svg" alt="Logo Menu"
@@ -119,12 +123,12 @@
         </aside>
       </header>
 
-      <div class="text-white text-center pt-[110px] desktop:pt-[140px]">
+      <div class="text-white text-center pt-[110px] desktop:pt-[120px] relative z-10">
         <h1 class="text-[2rem] pb-6 desktop:text-[60px] font-medium">A modern publishing platfrom</h1>
         <p class="text-lg px-1">Grow your audience and build your online brand</p>
       </div>
 
-      <div class="w-full flex justify-center pt-12 pb-[156px]">
+      <div class="w-full flex justify-center pt-12 pb-[156px] relative z-10">
         <nav class="flex gap-4">
           <a
             class=" bg-white text-[#ed7d82] px-4 py-3 rounded-full font-semibold hover:bg-[#ed7d82] hover:text-white cursor-pointer">Start
@@ -144,7 +148,7 @@
       class="w-full desktop:h-[1010px] bg-white pt-[70px]  pb-[260px] flex justify-center desktop:pb-[55px] relative z-10">
       <div
         class="bg-white w-full h-full max-w-[1440px] flex flex-col items-center px-5 text-center desktop:px-[160px] relative">
-        <h2 class="text-[25px] font-medium text-[#294055] laptop:py-5 desktop:text-[35px]">Designed for the future</h2>
+        <h2 class="text-[25px]  font-medium text-[#294055] laptop:pt-[50px] desktop:text-[35px]">Designed for the future</h2>
 
         <div class="hidden absolute right-[-250px] desktop:block">
           <img src="./images/illustration-editor-desktop.svg" alt="illustration-editor-desktop">
@@ -160,9 +164,9 @@
 
 
 
-          <div class="w-full max-w-[586px] flex flex-col items-center gap-[80px]">
+          <div class="w-full max-w-[586px] flex flex-col items-center gap-[50px]">
             <article class="w-full text-center desktop:text-left">
-              <h3 class="text-[26px] text-[#294055] font-medium pb-10"> Introducing an extensible editor</h3>
+              <h3 class="text-[26px] text-[#294055] font-medium pb-8"> Introducing an extensible editor</h3>
               <p class="text-[16px] text-[#717377] leading-[28px] px-1"> Introducing an extensible editor
                 Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
                 The editor supports management of multiple blogs and allows easy manipulation of embeds such as
@@ -171,7 +175,7 @@
                 change the looks of a blog.</p>
             </article>
             <article class="text-center desktop:text-left">
-              <h3 class="text-[26px] text-[#294055] font-medium pb-10"> Robust content management</h3>
+              <h3 class="text-[26px] text-[#294055] font-medium pb-8"> Robust content management</h3>
               <p class="text-[18px] text-[#717377] leading-[28px]">Flexible content management enables users to easily
                 move through posts. Increase the usability of your
                 blog
@@ -192,15 +196,15 @@
         <img src="./images/bg-pattern-circles.svg" alt="bg-pattern-circles"
           class="absolute top-[-150px]  object-cover scale-150 z-0 desktop:scale-90 desktop:top-[-500px] desktop:left-[-150px]">
 
-        <figure class="w-[350px] h-full laptop:w-full relative  top-[-200px] z-20">
+        <figure class="w-[350px] h-full laptop:w-full relative  top-[-200px] z-20 desktop:top-[-70px]">
           <img src="./images/illustration-phones.svg" alt="illustration-phones"
             class="absolute z-20 laptop:w-full object-contain">
 
         </figure>
         <div class="w-full max-w-[585px] pt-[200px] laptop:pt-[0] flex flex-col justify-center relative z'10">
           <article class="w-full text-white flex flex-col items-center text-center laptop:items-start">
-            <h3 class="text-[35px] font-semibold pb-[40px] laptop:text-left">State of the Art Infrastructure</h3>
-            <p class="text-[16px] ext-center leading-7 max-w-[500px] text-center laptop:text-left"> With reliability and
+            <h3 class="text-[35px] font-semibold pb-[34px] laptop:text-left">State of the Art Infrastructure</h3>
+            <p class="text-[16px] leading-7 max-w-[500px] text-center laptop:text-left"> With reliability and
               speed in mind,
               worldwide data centers
               provide the backbone for ultra-fast
@@ -223,10 +227,10 @@
           <img src="./images/illustration-laptop-desktop.svg" alt="illustration-laptop-desktop"
             class="hidden desktop:block absolute right-[740px]">
         </figure>
-        <div class="w-full max-w-[585px] flex flex-col items-center gap-[80px]">
+        <div class="w-full max-w-[585px] flex flex-col items-center gap-[70px]">
 
           <article class="w-full text-center desktop:text-left">
-            <h3 class="text-[26px] text-[rgb(41,64,85)] font-medium pb-10">Free, open, simple</h3>
+            <h3 class="text-[26px] text-[rgb(41,64,85)] font-medium pb-8">Free, open, simple</h3>
             <p class="text-[16px] text-[#86868a] leading-[28px] px-1"> Blogr is a free and open source application
               backed
               by a large community of helpful developers. It supports features such as code syntax highlighting,RSS
@@ -236,7 +240,7 @@
               relatively easy to learn.</p>
           </article>
           <article class="text-center desktop:text-left">
-            <h3 class="text-[26px] text-[#294055] font-medium pb-10"> Powerful tooling</h3>
+            <h3 class="text-[26px] text-[#294055] font-medium pb-8"> Powerful tooling</h3>
             <p class="text-[18px] text-[#86868a] leading-[28px]">Batteries included. We built a simple and
               straightforward
               CLI tool that makes customization and deployment a breeze, but capable of producing
@@ -247,10 +251,10 @@
     </section>
 
     <!-- FOOTER SECTION---5 -->
-    <footer
+    <footer role="footer"
       class="w-full bg-[#24252D] rounded-tr-[100px] flex flex-wrap justify-center text-white pb-[70px] laptop:px-[55px]">
       <section
-        class="w-full max-w-[1122px] flex flex-col pt-14 gap-10 text-center laptop:flex-row laptop:justify-between">
+        class="w-full max-w-[1122px] flex flex-col pt-[60px] gap-10 text-center laptop:flex-row laptop:justify-between">
         <div class="flex justify-center">
           <img src="./images/logo.svg" alt="Logo" class="w-[101px] h-10 self-start">
 
